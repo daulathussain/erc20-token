@@ -1,0 +1,59 @@
+
+.user{
+    padding-block: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.3rem;
+}
+
+.user_box{
+    background-image: linear-gradient(135deg, #49138C, #341477);
+    padding: 1rem;
+    border-radius: .5rem;
+    line-height: 0;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+}
+
+.user_box_name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 0;
+}
+
+.user_box_price_box{
+    text-align: center;
+}
+
+.user_box_price{
+    padding: 3rem 1rem;
+    background-color: #2B0C65;
+    border-radius: .5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+}
+
+.user_box_status{
+    line-height: 0;
+    margin-top: -1.3rem;
+    margin-bottom: 3rem;
+    font-weight: 300;
+    color: #B492E9;
+}
+
+.user_box_img{
+    display: flex;
+    align-items: center;
+    gap: 1rem;  
+}
+
+.user_box_img_img{
+    border-radius: 50%;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+}
+
+@media screen and (max-width: 35em) {
+    .user{
+        grid-template-columns: 1fr;
+    }
+}

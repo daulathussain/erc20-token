@@ -1,0 +1,109 @@
+
+
+.transfer_box{
+    display: grid;
+    grid-template-columns: 2.1fr 1fr;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.transfer_box_left{
+    background-image: linear-gradient(135deg, #49138C, #341477);
+    padding: 1rem;
+    border-radius: .5rem;
+    line-height: 0;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);   
+}
+
+.transfer_box_left h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.transfer_box_left_box{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.transfer_box_left_box p{
+    padding: 1.5rem ;
+    border-radius: .2rem;
+    background-color: #2B0C65;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+}
+
+.transfer_box_left_box span{
+    display: block;
+    margin-top: 2rem;
+    background-image: linear-gradient(135deg, #49138C, #341477);
+    padding: 1.5rem 1rem;
+    font-size: .9rem;
+    border-radius: .2rem;
+}
+.funToken_img{
+    border-radius: 50%;
+}
+
+/* ///////////////?RIGHT */
+.transfer_box_right{
+    background-image: linear-gradient(135deg, #49138C, #341477);
+    padding: 1rem;
+    border-radius: .5rem;
+    line-height: 0;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+}
+
+
+
+.transfer_box_right h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+
+.transfer_box_right input{
+    width: 100%;
+    background-color: #2B0C65;
+    border: 0;
+    outline: none;
+    padding: 1rem 1rem;
+    border-radius: .3rem;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.transfer_box_right input::placeholder{
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.transfer_box_right_btn{
+    text-align: center;
+    padding: 1rem;
+}
+
+.transfer_box_right_btn button{
+    background-color: #2B0C65;
+    border: 0;
+    padding: 1.5rem 3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 0 6px 10px rgb(0 0 0 / 10%);
+
+}
+
+@media screen and (max-width: 35em) {
+    .transfer_box{
+        grid-template-columns: 1fr;
+    }
+    .transfer_box_left_box{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
